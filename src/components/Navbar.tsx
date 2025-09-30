@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='w-full flex justify-between'>
-      <img src="/public/assets/Logo.png" alt="" />
+      <img src="/public/Logo.png" alt="" />
       <ul className='hidden md:flex justify-between items-center gap-4'>
         <li>
             <Link to='#'>About Us</Link>
@@ -21,7 +21,7 @@ const Navbar = () => {
         <li>
             <Link to='#'>Blog</Link>
         </li>
-      <button>Request quote</button>
+      <button className='border px-4 py-2 rounded-xl border-appDark'>Request quote</button>
       </ul>
       <IoMdMenu size={25} className='sm:hidden' />
     </div>
