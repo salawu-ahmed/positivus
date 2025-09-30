@@ -15,7 +15,7 @@ const Home = () => {
           </div>
 
           <div className='flex-1'>
-            <img src="/public/Illustration.png" alt="" />
+            <img src="/Illustration.png" alt="" />
           </div>
 
           <div className='sm:hidden'>
@@ -25,12 +25,12 @@ const Home = () => {
         </div>
 
         <div className="flex gap-4 justify-between mt-8 mb-8">
-          <img src="/public/Company logo.png" alt="" />
-          <img src="/public/Company logo (1).png" alt="" />
-          <img src="/public/Company logo (2).png" alt="" />
-          <img src="/public/Company logo (3).png" alt="" />
-          <img src="/public/Company logo (4).png" alt="" />
-          <img src="/public/Company logo (5).png" alt="" />
+          <img src="/Company logo.png" alt="" />
+          <img src="/Company logo (1).png" alt="" />
+          <img src="/Company logo (2).png" alt="" />
+          <img src="/Company logo (3).png" alt="" />
+          <img src="/Company logo (4).png" alt="" />
+          <img src="/Company logo (5).png" alt="" />
         </div>
       </div>
 
@@ -42,37 +42,37 @@ const Home = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
           <ServicesCard
             title='Search Engine Optimisation'
-            imageLink='public\tokyo-magnifier-web-search-with-elements 2.png'
+            imageLink='\tokyo-magnifier-web-search-with-elements 2.png'
             titleHighlight='appGreen'
             background='appWhite'
           />
           <ServicesCard
             title='Pay-per-click advertising'
-            imageLink='public\tokyo-selecting-a-value-in-the-browser-window 1.png'
+            imageLink='\tokyo-selecting-a-value-in-the-browser-window 1.png'
             titleHighlight='appWhite'
             background='appGreen'
           />
           <ServicesCard
             title='Social Media Marketing'
-            imageLink='public\tokyo-browser-window-with-emoticon-likes-and-stars-around 2.png'
+            imageLink='\tokyo-browser-window-with-emoticon-likes-and-stars-around 2.png'
             titleHighlight='appWhite'
             background='appDark'
           />
           <ServicesCard
             title='Email Marketing'
-            imageLink='\public\tokyo-sending-messages-from-one-place-to-another 1.png'
+            imageLink='\tokyo-sending-messages-from-one-place-to-another 1.png'
             titleHighlight='appGreen'
             background='appWhite'
           />
           <ServicesCard
             title='Content Creation'
-            imageLink='\public\tokyo-sending-messages-from-one-place-to-another 1.png'
+            imageLink='\tokyo-sending-messages-from-one-place-to-another 1.png'
             titleHighlight='appWhite'
             background='appGreen'
           />
           <ServicesCard
             title='Analytics and Tracking'
-            imageLink='public\tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png'
+            imageLink='\tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png'
             titleHighlight='appGreen'
             background='appDark'
           />
@@ -89,7 +89,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src="/public/Illustration (1).png" alt="" />
+          <img src="/Illustration (1).png" alt="" />
         </div>
       </section>
 
